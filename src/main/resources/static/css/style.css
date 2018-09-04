@@ -1,0 +1,41 @@
+body {
+	background-color: #bbc0c9;
+	color: white;
+}
+
+input {
+	margin: 1em;
+	width: auto
+}
+
+label {
+	margin: 1em;
+}
+
+dl {
+	border-radius: 5px;
+	background-color: #828891;
+	margin: auto;
+    width: 20%;
+    padding: 2px;
+}
+
+dt {
+	margin: auto;
+    width: auto;
+}
+
+a {
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	background-color: #5f6368;
+	padding: 1em;
+	margin:1em;
+}
+
+a:hover {
+	background-color: #484b4f;
+}
