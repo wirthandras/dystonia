@@ -5,7 +5,7 @@ body {
 
 input {
 	margin: 1em;
-	width: auto
+	width: auto;
 }
 
 label {
@@ -16,13 +16,13 @@ dl {
 	border-radius: 5px;
 	background-color: #828891;
 	margin: auto;
-    width: auto;
-    padding: 2px;
+	width: auto;
+	padding: 2px;
 }
 
 dt {
 	margin: auto;
-    width: auto;
+	width: auto;
 }
 
 a {
@@ -33,7 +33,7 @@ a {
 	text-decoration: none;
 	background-color: #5f6368;
 	padding: 1em;
-	margin:1em;
+	margin: 1em;
 }
 
 a:hover {
