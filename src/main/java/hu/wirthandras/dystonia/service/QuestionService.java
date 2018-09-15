@@ -25,6 +25,11 @@ public class QuestionService {
 		lazyLoad();
 		return randomizeQuestion();
 	}
+	
+	public String getQuestion(int index) throws IOException {
+		lazyLoad();
+		return q.getQuestions().get(index).getQuestion();
+	}
 
 	private String randomizeQuestion() {
 		if (q.getQuestions() != null && q.getQuestions().size() > 0) {

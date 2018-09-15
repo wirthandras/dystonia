@@ -7,12 +7,18 @@
 <link rel="stylesheet" type="text/css" href="/css/question.css">
 <title>Question</title>
 <body>
-	<dl>
-		<dt class="question" th:text="${question}">Question</dt>
-		<dt class="inline">
-			<input type="submit" class="btnquestion yes" value="YES"><input
-				type="submit" value="NO" class="btnquestion no">
-		</dt>
-	</dl>
+
+	<form action="#" th:action="@{/rand}" th:object="${answer}"
+		method="post" autocomplete="off" class="form">
+		<dl>
+			<dt class="question" th:text="${question}">Question</dt>
+			<dt class="inline">
+
+				<input type="submit" class="btnquestion yes" value="YES"><input
+					type="submit" value="NO" class="btnquestion no">
+
+			</dt>
+		</dl>
+	</form>
 </body>
 </html>
